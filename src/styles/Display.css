@@ -1,0 +1,11 @@
+.disp {
+    border: 1px solid black;
+    width: 338px;
+    height: 70px;
+    background-color: rgb(17, 16, 16);
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
