@@ -1,0 +1,41 @@
+.btn {
+    width: 60px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    background-color: orange;
+    border-radius: 10%;
+}
+
+.btn:active {
+    background-color: gray;
+}
+
+.zero {
+    grid-column: 2 / 3;
+}
+
+.equal {
+    width: 100%;
+    height: 100%;
+    grid-column: 4 / 6;
+    grid-row: 3 / 5;
+    background-color: greenyellow;
+}
+
+.clear {
+    width: 100%;
+    height: 100%;
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+    background-color: rgb(223, 47, 16);
+}
+
+.backspace{
+    background: yellow;
+}
+
+.expr{
+    background-color: coral;
+}
